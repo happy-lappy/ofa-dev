@@ -23,7 +23,7 @@ jobs:
           python-version: '3.9.9'
       - name: Gather repo
         run: |
-          git clone "https://${{ secrets.GH_TOK }}@github.com/happy-lappy/ofa-bot" apok-dev || exit 1
+          git clone "https://${{ secrets.GH_TOK }}@github.com/happy-lappy/ofa-bot" ofa-dev || exit 1
       - name: Install deps
         run: |
           cd ofa-dev
